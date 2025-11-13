@@ -9,7 +9,7 @@ int main()
     ifstream G("grafo.dat");
 
     cout << "El grafo original es: " << endl;
-    GrafoPonderado<int> grafo;
+    GrafoPonderado<unsigned int> grafo;
     G >> grafo;
     cout << grafo << endl;
 

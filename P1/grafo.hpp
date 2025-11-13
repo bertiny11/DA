@@ -3,6 +3,9 @@
 
 #include <list>
 
+using namespace std;
+
+
 // Arista.
 
 template <typename V>

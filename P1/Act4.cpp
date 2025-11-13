@@ -4,6 +4,8 @@
 
 using namespace std;
 
+inline bool operator <(const AristaPonderada<int>& a, const AristaPonderada<int>& b) { return a.peso() > b.peso(); };
+
 int main()
 {
     ifstream G("grafo.dat");

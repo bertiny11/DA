@@ -2,6 +2,11 @@
 #define GRAFO_PONDERADO_HPP_
 
 #include "grafo.hpp"
+#include <fstream>
+#include <ostream>
+#include <iterator>
+
+using namespace std;
 
 // Arista ponderada.
 
